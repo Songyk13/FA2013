@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="GB2312"?>
+<RecorderReport Desc="录波简报">
+<SubStation value="乐万500kV变电所500kV2#小室故障�">
+</SubStation>
+<Recorder value="">
+</Recorder>
+<Bay value="500kV南乐Ⅰ线">
+</Bay>
+<StartTime value="2009-01-25 01:38:41.0000">
+</StartTime>
+<RET value=" -0.5">
+</RET>
+<Duration value=" 40.0">
+</Duration>
+<FPT value="ＡＮ">
+<Phrase value="A">
+</Phrase>
+  <Grounded value="TRUE">
+  </Grounded>
+</FPT>
+<JPT value="">
+  <Phrase value="">
+  </Phrase>
+</JPT>
+<Position value=" 37.572">
+</Position>
+<Range value="InSide">
+</Range>
+<CHZ value="FALSE">
+</CHZ>
+<CHZTime value="  0.0">
+</CHZTime>
+<Breaker value="FALSE">
+</Breaker>
+<DIG value="FALSE">
+</DIG>
+<Result value="FALSE">
+</Result>
+<FaultValue>
+ <I value="  2.906"></I>
+ <U value=" 27.410"></U>
+</FaultValue>
+<CycBefort>
+ <Ia value="  0.043" angle=" 27.808"></Ia>
+ <Ib value="  0.042" angle="-118.822"></Ib>
+ <Ic value="  0.044" angle="123.725"></Ic>
+ <I0 value="  0.021" angle="108.982"></I0>
+ <Ua value=" 62.463" angle="168.051"></Ua>
+ <Ub value=" 62.918" angle=" 46.668"></Ub>
+ <Uc value=" 62.782" angle="-73.698"></Uc>
+ <U0 value="  1.591" angle="-101.262"></U0>
+</CycBefort>
+<Cyc1After>
+ <Ia value="  2.035" angle=" 87.873"></Ia>
+ <Ib value="  0.014" angle="133.672"></Ib>
+ <Ic value="  0.150" angle=" 91.495"></Ic>
+ <I0 value="  2.195" angle=" 88.387"></I0>
+ <Ua value=" 19.372" angle="162.483"></Ua>
+ <Ub value=" 62.138" angle=" 46.116"></Ub>
+ <Uc value=" 62.200" angle="-73.730"></Uc>
+ <U0 value=" 42.999" angle="-12.208"></U0>
+</Cyc1After>
+<Cyc2After>
+ <Ia value="  0.080" angle=" 93.475"></Ia>
+ <Ib value="  0.040" angle="-112.568"></Ib>
+ <Ic value="  0.047" angle="102.945"></Ic>
+ <I0 value="  0.094" angle="109.215"></I0>
+ <Ua value="  5.205" angle="-90.782"></Ua>
+ <Ub value=" 61.383" angle=" 46.385"></Ub>
+ <Uc value=" 62.380" angle="-74.502"></Uc>
+ <U0 value=" 62.527" angle="-19.503"></U0>
+</Cyc2After>
+</RecorderReport>

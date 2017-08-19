@@ -1,0 +1,2244 @@
+[Public Record_Information]
+Source=武汉中元华电科技有限公司ZH-3X系列录波分析装置,ZYHDINF_V2
+Record_Information=
+Location=
+max_current=
+min_current=
+max_voltage=
+min_voltage=
+EventNoteCount=0
+
+[Public File_Description]
+Station_Name=乐万500kV变电所500kV2#小室故障录波器
+Recording_Device_ID=2189#
+Revision_Year=1999
+Total_Channel_Count=193
+Analog_Channel_Count=65
+Status_Channel_Count=128
+Line_Frequency=50
+Sample_Rate_Count=5
+Sample_Rate_#1=2000
+End_Sample_Rate_#1=1922
+Sample_Rate_#2=1000
+End_Sample_Rate_#2=3922
+Sample_Rate_#3=2000
+End_Sample_Rate_#3=4402
+Sample_Rate_#4=1000
+End_Sample_Rate_#4=6402
+Sample_Rate_#5=20
+End_Sample_Rate_#5=6553
+File_Start_Time=25/01/2009,01:38:40.960800
+Trigger_Time=25/01/2009,01:38:41.000800
+File_Type=BINARY
+Time_Multiplier=1
+
+[Public Analog_Channel_#1]
+Channel_ID=1-500kV南乐Ⅰ线电压Ua
+Phase_ID=A
+Monitored_Component=500kV南乐Ⅰ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#2]
+Channel_ID=2-500kV南乐Ⅰ线电压Ub
+Phase_ID=B
+Monitored_Component=500kV南乐Ⅰ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#3]
+Channel_ID=3-500kV南乐Ⅰ线电压Uc
+Phase_ID=C
+Monitored_Component=500kV南乐Ⅰ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#4]
+Channel_ID=4-500kV南乐Ⅰ线电压3Uo
+Phase_ID=N
+Monitored_Component=500kV南乐Ⅰ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#5]
+Channel_ID=5-备用线路1电流Ia
+Phase_ID=A
+Monitored_Component=备用线路1
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#6]
+Channel_ID=6-备用线路1电流Ib
+Phase_ID=B
+Monitored_Component=备用线路1
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#7]
+Channel_ID=7-备用线路1电流Ic
+Phase_ID=C
+Monitored_Component=备用线路1
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#8]
+Channel_ID=8-备用线路1电流3Io
+Phase_ID=N
+Monitored_Component=备用线路1
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#9]
+Channel_ID=9-500kV南乐Ⅰ线电流Ia
+Phase_ID=A
+Monitored_Component=500kV南乐Ⅰ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#10]
+Channel_ID=10-500kV南乐Ⅰ线电流Ib
+Phase_ID=B
+Monitored_Component=500kV南乐Ⅰ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#11]
+Channel_ID=11-500kV南乐Ⅰ线电流Ic
+Phase_ID=C
+Monitored_Component=500kV南乐Ⅰ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#12]
+Channel_ID=12-500kV南乐Ⅰ线电流3Io
+Phase_ID=N
+Monitored_Component=500kV南乐Ⅰ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#13]
+Channel_ID=13-备用线路2电流Ia
+Phase_ID=A
+Monitored_Component=备用线路2
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#14]
+Channel_ID=14-备用线路2电流Ib
+Phase_ID=B
+Monitored_Component=备用线路2
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#15]
+Channel_ID=15-备用线路2电流Ic
+Phase_ID=C
+Monitored_Component=备用线路2
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#16]
+Channel_ID=16-备用线路2电流3Io
+Phase_ID=N
+Monitored_Component=备用线路2
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#17]
+Channel_ID=17-500kV南乐Ⅱ线电压Ua
+Phase_ID=A
+Monitored_Component=500kV南乐Ⅱ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#18]
+Channel_ID=18-500kV南乐Ⅱ线电压Ub
+Phase_ID=B
+Monitored_Component=500kV南乐Ⅱ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#19]
+Channel_ID=19-500kV南乐Ⅱ线电压Uc
+Phase_ID=C
+Monitored_Component=500kV南乐Ⅱ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#20]
+Channel_ID=20-500kV南乐Ⅱ线电压3Uo
+Phase_ID=N
+Monitored_Component=500kV南乐Ⅱ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#21]
+Channel_ID=21-备用线路3电流Ia
+Phase_ID=A
+Monitored_Component=备用线路3
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#22]
+Channel_ID=22-备用线路3电流Ib
+Phase_ID=B
+Monitored_Component=备用线路3
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#23]
+Channel_ID=23-备用线路3电流Ic
+Phase_ID=C
+Monitored_Component=备用线路3
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#24]
+Channel_ID=24-备用线路3电流3Io
+Phase_ID=N
+Monitored_Component=备用线路3
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#25]
+Channel_ID=25-500kV南乐Ⅱ线电流Ia
+Phase_ID=A
+Monitored_Component=500kV南乐Ⅱ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#26]
+Channel_ID=26-500kV南乐Ⅱ线电流Ib
+Phase_ID=B
+Monitored_Component=500kV南乐Ⅱ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#27]
+Channel_ID=27-500kV南乐Ⅱ线电流Ic
+Phase_ID=C
+Monitored_Component=500kV南乐Ⅱ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#28]
+Channel_ID=28-500kV南乐Ⅱ线电流3Io
+Phase_ID=N
+Monitored_Component=500kV南乐Ⅱ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#29]
+Channel_ID=29-备用线路4电流Ia
+Phase_ID=A
+Monitored_Component=备用线路4
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#30]
+Channel_ID=30-备用线路4电流Ib
+Phase_ID=B
+Monitored_Component=备用线路4
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#31]
+Channel_ID=31-备用线路4电流Ic
+Phase_ID=C
+Monitored_Component=备用线路4
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#32]
+Channel_ID=32-备用线路4电流3Io
+Phase_ID=N
+Monitored_Component=备用线路4
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#33]
+Channel_ID=33-500kV乐鹰Ⅰ线电压Ua
+Phase_ID=A
+Monitored_Component=500kV乐鹰Ⅰ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#34]
+Channel_ID=34-500kV乐鹰Ⅰ线电压Ub
+Phase_ID=B
+Monitored_Component=500kV乐鹰Ⅰ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#35]
+Channel_ID=35-500kV乐鹰Ⅰ线电压Uc
+Phase_ID=C
+Monitored_Component=500kV乐鹰Ⅰ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#36]
+Channel_ID=36-500kV乐鹰Ⅰ线电压3Uo
+Phase_ID=N
+Monitored_Component=500kV乐鹰Ⅰ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#37]
+Channel_ID=37-备用线路5电流Ia
+Phase_ID=A
+Monitored_Component=备用线路5
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#38]
+Channel_ID=38-备用线路5电流Ib
+Phase_ID=B
+Monitored_Component=备用线路5
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#39]
+Channel_ID=39-备用线路5电流Ic
+Phase_ID=C
+Monitored_Component=备用线路5
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#40]
+Channel_ID=40-备用线路5电流3Io
+Phase_ID=N
+Monitored_Component=备用线路5
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#41]
+Channel_ID=41-500kV乐鹰Ⅰ线电流Ia
+Phase_ID=A
+Monitored_Component=500kV乐鹰Ⅰ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#42]
+Channel_ID=42-500kV乐鹰Ⅰ线电流Ib
+Phase_ID=B
+Monitored_Component=500kV乐鹰Ⅰ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#43]
+Channel_ID=43-500kV乐鹰Ⅰ线电流Ic
+Phase_ID=C
+Monitored_Component=500kV乐鹰Ⅰ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#44]
+Channel_ID=44-500kV乐鹰Ⅰ线电流3Io
+Phase_ID=N
+Monitored_Component=500kV乐鹰Ⅰ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#45]
+Channel_ID=45-备用线路6电流Ia
+Phase_ID=A
+Monitored_Component=备用线路6
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#46]
+Channel_ID=46-备用线路6电流Ib
+Phase_ID=B
+Monitored_Component=备用线路6
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#47]
+Channel_ID=47-备用线路6电流Ic
+Phase_ID=C
+Monitored_Component=备用线路6
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#48]
+Channel_ID=48-备用线路6电流3Io
+Phase_ID=N
+Monitored_Component=备用线路6
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#49]
+Channel_ID=49-500kV乐鹰Ⅱ线电压Ua
+Phase_ID=A
+Monitored_Component=500kV乐鹰Ⅱ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#50]
+Channel_ID=50-500kV乐鹰Ⅱ线电压Ub
+Phase_ID=B
+Monitored_Component=500kV乐鹰Ⅱ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#51]
+Channel_ID=51-500kV乐鹰Ⅱ线电压Uc
+Phase_ID=C
+Monitored_Component=500kV乐鹰Ⅱ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#52]
+Channel_ID=52-500kV乐鹰Ⅱ线电压3Uo
+Phase_ID=N
+Monitored_Component=500kV乐鹰Ⅱ线
+Channel_Units=V
+Channel_Multiplier=0.0310778221
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=500000.0000000000
+Channel_Ratio_Secondary=100.0000014901
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#53]
+Channel_ID=53-备用线路7电流Ia
+Phase_ID=A
+Monitored_Component=备用线路7
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#54]
+Channel_ID=54-备用线路7电流Ib
+Phase_ID=B
+Monitored_Component=备用线路7
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#55]
+Channel_ID=55-备用线路7电流Ic
+Phase_ID=C
+Monitored_Component=备用线路7
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#56]
+Channel_ID=56-备用线路7电流3Io
+Phase_ID=N
+Monitored_Component=备用线路7
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#57]
+Channel_ID=57-500kV乐鹰Ⅱ线电流Ia
+Phase_ID=A
+Monitored_Component=500kV乐鹰Ⅱ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#58]
+Channel_ID=58-500kV乐鹰Ⅱ线电流Ib
+Phase_ID=B
+Monitored_Component=500kV乐鹰Ⅱ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#59]
+Channel_ID=59-500kV乐鹰Ⅱ线电流Ic
+Phase_ID=C
+Monitored_Component=500kV乐鹰Ⅱ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#60]
+Channel_ID=60-500kV乐鹰Ⅱ线电流3Io
+Phase_ID=N
+Monitored_Component=500kV乐鹰Ⅱ线
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=3000.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#61]
+Channel_ID=61-备用线路8电流Ia
+Phase_ID=A
+Monitored_Component=备用线路8
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#62]
+Channel_ID=62-备用线路8电流Ib
+Phase_ID=B
+Monitored_Component=备用线路8
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#63]
+Channel_ID=63-备用线路8电流Ic
+Phase_ID=C
+Monitored_Component=备用线路8
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#64]
+Channel_ID=64-备用线路8电流3Io
+Phase_ID=N
+Monitored_Component=备用线路8
+Channel_Units=A
+Channel_Multiplier=0.0034530913
+Channel_Offset=0.0000000000
+Channel_Skew=0.0000000000
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=2500.0000000000
+Channel_Ratio_Secondary=1.0000000000
+Data_Primary_Secondary=S
+
+[Public Analog_Channel_#65]
+Channel_ID=频率曲线
+Phase_ID=
+Monitored_Component=
+Channel_Units=Hz
+Channel_Multiplier=0.0050000000
+Channel_Offset=0.0
+Channel_Skew=0.0
+Range_Minimum_Limit_Value=-8191
+Range_Maximum_Limit_Value=8191
+Channel_Ratio_Primary=1
+Channel_Ratio_Secondary=1
+Data_Primary_Secondary=S
+
+[Public Status_Channel_#1]
+Channel_ID=1-500kV南乐Ⅰ线第一套RCS-931A保护A相跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#2]
+Channel_ID=2-500kV南乐Ⅰ线第一套RCS-931A保护B相跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#3]
+Channel_ID=3-500kV南乐Ⅰ线第一套RCS-931A保护C相跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#4]
+Channel_ID=4-500kV南乐Ⅰ线第一套RCS-931A保护远跳动作
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#5]
+Channel_ID=5-500kV南乐Ⅰ线第二套CSC-103A保护A相跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#6]
+Channel_ID=6-500kV南乐Ⅰ线第二套CSC-103A保护B相跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#7]
+Channel_ID=7-500kV南乐Ⅰ线第二套CSC-103A保护C相跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#8]
+Channel_ID=8-500kV南乐Ⅰ线第二套CSC-103A保护三相跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#9]
+Channel_ID=9-500kV南乐Ⅰ线第二套CSC-103A保护永久跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#10]
+Channel_ID=10-500kV南乐Ⅰ线第二套CSC-103A保护收信跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#11]
+Channel_ID=11-500kV南乐Ⅰ线第二套CSC-103A保护过压跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#12]
+Channel_ID=12-500kV南乐Ⅰ线第二套CSC-103A保护收令动作
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#13]
+Channel_ID=13-500kV南乐Ⅰ线第二套CSC-103A保护发令动作
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#14]
+Channel_ID=14-500kV南乐Ⅰ线第二套CSC-103A保护通道告警
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#15]
+Channel_ID=15-500kV南乐Ⅱ线第一套RCS-931A保护A相跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#16]
+Channel_ID=16-500kV南乐Ⅱ线第一套RCS-931A保护B相跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#17]
+Channel_ID=17-500kV南乐Ⅱ线第一套RCS-931A保护C相跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#18]
+Channel_ID=18-500kV南乐Ⅱ线第一套RCS-931A保护远跳动作
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#19]
+Channel_ID=19-500kV南乐Ⅱ线第二套CSC-103A保护A相跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#20]
+Channel_ID=20-500kV南乐Ⅱ线第二套CSC-103A保护B相跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#21]
+Channel_ID=21-500kV南乐Ⅱ线第二套CSC-103A保护C相跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#22]
+Channel_ID=22-500kV南乐Ⅱ线第二套CSC-103A保护三相跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#23]
+Channel_ID=23-500kV南乐Ⅱ线第二套CSC-103A保护永久跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#24]
+Channel_ID=24-500kV南乐Ⅱ线通道A告警
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#25]
+Channel_ID=25-500kV南乐Ⅱ线通道B告警
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#26]
+Channel_ID=26-500kV南乐Ⅱ线第二套CSC-103A保护收信跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#27]
+Channel_ID=27-500kV南乐Ⅱ线第二套CSC-103A保护过压跳闸
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#28]
+Channel_ID=28-500kV南乐Ⅰ线第二套CSC-103A保护收信录波
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#29]
+Channel_ID=29-500kV南乐Ⅰ线第二套CSC-103A保护发信录波
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#30]
+Channel_ID=30-500kV南乐Ⅰ线第二套CSC-103A保护远跳收信录波
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#31]
+Channel_ID=31-500kV南乐Ⅰ线第二套CSC-103A保护远跳发信录波
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#32]
+Channel_ID=32-备用开关量通道
+Phase_ID= 
+Monitored_Component= 
+Normal_State=1
+
+[Public Status_Channel_#33]
+Channel_ID=33-500kV 5033边断路器A相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#34]
+Channel_ID=34-500kV 5033边断路器B相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#35]
+Channel_ID=35-500kV 5033边断路器C相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#36]
+Channel_ID=36-500kV 5033边断路器重合闸动作
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#37]
+Channel_ID=37-500kV 5033边断路器失灵保护动作
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#38]
+Channel_ID=38-500kV 5042中间断路器A相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#39]
+Channel_ID=39-500kV 5042中间断路器B相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#40]
+Channel_ID=40-500kV 5042中间断路器C相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#41]
+Channel_ID=41-500kV 5042中间断路器重合闸动作
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#42]
+Channel_ID=42-500kV 5042中间断路器失灵保护动作
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#43]
+Channel_ID=43-500kV 5043边断路器A相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#44]
+Channel_ID=44-500kV 5043边断路器B相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#45]
+Channel_ID=45-500kV 5043边断路器C相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#46]
+Channel_ID=46-500kV 5043边断路器重合闸动作
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#47]
+Channel_ID=47-500kV 5043边断路器失灵保护动作
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#48]
+Channel_ID=48-500kV 5031边断路器A相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#49]
+Channel_ID=49-500kV 5031边断路器B相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#50]
+Channel_ID=50-500kV 5031边断路器C相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#51]
+Channel_ID=51-500kV 5031边断路器重合闸动作
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#52]
+Channel_ID=52-500kV 5031边断路器失灵保护动作
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#53]
+Channel_ID=53-500kV 5032中间断路器A相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#54]
+Channel_ID=54-500kV 5032中间断路器B相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#55]
+Channel_ID=55-500kV 5032中间断路器C相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#56]
+Channel_ID=56-500kV 5032中间断路器重合闸动作
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#57]
+Channel_ID=57-500kV 5032中间断路器失灵保护动作
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#58]
+Channel_ID=58-500kV 5041边断路器A相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#59]
+Channel_ID=59-500kV 5041边断路器B相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#60]
+Channel_ID=60-500kV 5041边断路器C相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#61]
+Channel_ID=61-500kV 5041边断路器重合闸动作
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#62]
+Channel_ID=62-500kV 5041边断路器失灵保护动作
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#63]
+Channel_ID=63-母线2母线侧电压一般开关量
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#64]
+Channel_ID=64-母线2母线侧电压一般开关量
+Phase_ID= 
+Monitored_Component=500kV南乐Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#65]
+Channel_ID=65-500kV乐鹰Ⅱ线第一套RCS-931A保护A相跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=1
+
+[Public Status_Channel_#66]
+Channel_ID=66-500kV乐鹰Ⅱ线第一套RCS-931A保护B相跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#67]
+Channel_ID=67-500kV乐鹰Ⅱ线第一套RCS-931A保护C相跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#68]
+Channel_ID=68-500kV乐鹰Ⅱ线第一套RCS-931A保护远跳动作
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=1
+
+[Public Status_Channel_#69]
+Channel_ID=69-500kV乐鹰Ⅱ线第二套保护A相跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#70]
+Channel_ID=70-500kV乐鹰Ⅱ线第二套保护B相跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#71]
+Channel_ID=71-500kV乐鹰Ⅱ线第二套保护C相跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#72]
+Channel_ID=72-500kV乐鹰Ⅱ线第二套保护三相跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#73]
+Channel_ID=73-500kV乐鹰Ⅱ线第二套保护永久跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#74]
+Channel_ID=74-母线3母线侧电压一般开关量
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#75]
+Channel_ID=75-母线3母线侧电压一般开关量
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#76]
+Channel_ID=76-500kV乐鹰Ⅱ线第二套保护收信跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#77]
+Channel_ID=77-500kV乐鹰Ⅱ线第二套保护过压跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#78]
+Channel_ID=78-500kV乐鹰Ⅰ线第一套RCS-931A保护A相跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#79]
+Channel_ID=79-500kV乐鹰Ⅰ线第一套RCS-931A保护B相跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#80]
+Channel_ID=80-500kV乐鹰Ⅰ线第一套RCS-931A保护C相跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#81]
+Channel_ID=81-500kV乐鹰Ⅰ线第一套RCS-931A保护远跳动作
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅰ线
+Normal_State=1
+
+[Public Status_Channel_#82]
+Channel_ID=82-500kV乐鹰Ⅰ线第二套保护A相跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#83]
+Channel_ID=83-500kV乐鹰Ⅰ线第二套保护B相跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#84]
+Channel_ID=84-500kV乐鹰Ⅰ线第二套保护C相跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#85]
+Channel_ID=85-500kV乐鹰Ⅰ线第二套保护三相跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#86]
+Channel_ID=86-500kV乐鹰Ⅰ线第二套保护永久跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#87]
+Channel_ID=87-母线3母线侧电压一般开关量
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#88]
+Channel_ID=88-母线3母线侧电压一般开关量
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#89]
+Channel_ID=89-500kV鹰潭Ⅰ线第二套保护收信跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#90]
+Channel_ID=90-500kV鹰潭Ⅰ线第二套保护过压跳闸
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅰ线
+Normal_State=0
+
+[Public Status_Channel_#91]
+Channel_ID=91-500kV 5033B母断路器A相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#92]
+Channel_ID=92-500kV 5033B母断路器B相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#93]
+Channel_ID=93-500kV 5033B母断路器C相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#94]
+Channel_ID=94-500kV 5042中间断路器操作箱A相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#95]
+Channel_ID=95-500kV 5042中间断路器操作箱B相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#96]
+Channel_ID=96-500kV 5042中间断路器操作箱C相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#97]
+Channel_ID=97-500kV 5043断路器操作箱A相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#98]
+Channel_ID=98-500kV 5043断路器操作箱B相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#99]
+Channel_ID=99-500kV 5043断路器操作箱C相跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#100]
+Channel_ID=100-500kV 5031边断路器A相操作箱跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#101]
+Channel_ID=101-500kV 5031边断路器B相操作箱跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#102]
+Channel_ID=102-500kV 5031边断路器C相操作箱跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#103]
+Channel_ID=103-500kV 5032中间断路器保护A相操作箱跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#104]
+Channel_ID=104-500kV 5032中间断路器保护B相操作箱跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#105]
+Channel_ID=105-500kV 5032中间断路器保护C相操作箱跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#106]
+Channel_ID=106-500kV 5041边断路器A相操作箱跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#107]
+Channel_ID=107-500kV 5041边断路器B相操作箱跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#108]
+Channel_ID=108-500kV 5041边断路器C相操作箱跳闸
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#109]
+Channel_ID=109-5033断路器合位
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#110]
+Channel_ID=110-5033断路器分位
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#111]
+Channel_ID=111-5042断路器合位
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#112]
+Channel_ID=112-5042断路器分位
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#113]
+Channel_ID=113-5043断路器合位
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#114]
+Channel_ID=114-5043断路器分位
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#115]
+Channel_ID=115-5031断路器合位
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#116]
+Channel_ID=116-5031断路器分位
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#117]
+Channel_ID=117-5032断路器合位
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#118]
+Channel_ID=118-5032断路器分位
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#119]
+Channel_ID=119-5041断路器合位
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#120]
+Channel_ID=120-5041断路器分位
+Phase_ID= 
+Monitored_Component= 
+Normal_State=0
+
+[Public Status_Channel_#121]
+Channel_ID=121-母线4母线侧电压一般开关量
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#122]
+Channel_ID=122-母线4母线侧电压一般开关量
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#123]
+Channel_ID=123-母线4母线侧电压一般开关量
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#124]
+Channel_ID=124-母线4母线侧电压一般开关量
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#125]
+Channel_ID=125-母线4母线侧电压一般开关量
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#126]
+Channel_ID=126-母线4母线侧电压一般开关量
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#127]
+Channel_ID=127-母线4母线侧电压一般开关量
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[Public Status_Channel_#128]
+Channel_ID=128-母线4母线侧电压一般开关量
+Phase_ID= 
+Monitored_Component=500kV乐鹰Ⅱ线
+Normal_State=0
+
+[ZYHD Analog_Channels_Parameter]
+CHNL_INFO_#1=1, 1, 500kV南乐Ⅰ线电压Ua, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#2=2, 2, 500kV南乐Ⅰ线电压Ub, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#3=3, 3, 500kV南乐Ⅰ线电压Uc, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#4=4, 4, 500kV南乐Ⅰ线电压3Uo, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#5=5, 5, 备用线路1电流Ia, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#6=6, 6, 备用线路1电流Ib, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#7=7, 7, 备用线路1电流Ic, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#8=8, 8, 备用线路1电流3Io, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#9=9, 9, 500kV南乐Ⅰ线电流Ia, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#10=10, 10, 500kV南乐Ⅰ线电流Ib, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#11=11, 11, 500kV南乐Ⅰ线电流Ic, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#12=12, 12, 500kV南乐Ⅰ线电流3Io, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#13=13, 13, 备用线路2电流Ia, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#14=14, 14, 备用线路2电流Ib, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#15=15, 15, 备用线路2电流Ic, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#16=16, 16, 备用线路2电流3Io, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#17=17, 17, 500kV南乐Ⅱ线电压Ua, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#18=18, 18, 500kV南乐Ⅱ线电压Ub, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#19=19, 19, 500kV南乐Ⅱ线电压Uc, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#20=20, 20, 500kV南乐Ⅱ线电压3Uo, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#21=21, 21, 备用线路3电流Ia, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#22=22, 22, 备用线路3电流Ib, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#23=23, 23, 备用线路3电流Ic, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#24=24, 24, 备用线路3电流3Io, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#25=25, 25, 500kV南乐Ⅱ线电流Ia, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#26=26, 26, 500kV南乐Ⅱ线电流Ib, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#27=27, 27, 500kV南乐Ⅱ线电流Ic, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#28=28, 28, 500kV南乐Ⅱ线电流3Io, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#29=29, 29, 备用线路4电流Ia, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#30=30, 30, 备用线路4电流Ib, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#31=31, 31, 备用线路4电流Ic, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#32=32, 32, 备用线路4电流3Io, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#33=33, 33, 500kV乐鹰Ⅰ线电压Ua, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#34=34, 34, 500kV乐鹰Ⅰ线电压Ub, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#35=35, 35, 500kV乐鹰Ⅰ线电压Uc, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#36=36, 36, 500kV乐鹰Ⅰ线电压3Uo, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#37=37, 37, 备用线路5电流Ia, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#38=38, 38, 备用线路5电流Ib, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#39=39, 39, 备用线路5电流Ic, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#40=40, 40, 备用线路5电流3Io, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#41=41, 41, 500kV乐鹰Ⅰ线电流Ia, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#42=42, 42, 500kV乐鹰Ⅰ线电流Ib, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#43=43, 43, 500kV乐鹰Ⅰ线电流Ic, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#44=44, 44, 500kV乐鹰Ⅰ线电流3Io, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#45=45, 45, 备用线路6电流Ia, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#46=46, 46, 备用线路6电流Ib, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#47=47, 47, 备用线路6电流Ic, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#48=48, 48, 备用线路6电流3Io, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#49=49, 49, 500kV乐鹰Ⅱ线电压Ua, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#50=50, 50, 500kV乐鹰Ⅱ线电压Ub, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#51=51, 51, 500kV乐鹰Ⅱ线电压Uc, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#52=52, 52, 500kV乐鹰Ⅱ线电压3Uo, TV, 50.000, 500.000, kV, 100.000, V, 1, 0, 
+CHNL_INFO_#53=53, 53, 备用线路7电流Ia, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#54=54, 54, 备用线路7电流Ib, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#55=55, 55, 备用线路7电流Ic, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#56=56, 56, 备用线路7电流3Io, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#57=57, 57, 500kV乐鹰Ⅱ线电流Ia, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#58=58, 58, 500kV乐鹰Ⅱ线电流Ib, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#59=59, 59, 500kV乐鹰Ⅱ线电流Ic, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#60=60, 60, 500kV乐鹰Ⅱ线电流3Io, TA, 50.000, 3.000, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#61=61, 61, 备用线路8电流Ia, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#62=62, 62, 备用线路8电流Ib, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#63=63, 63, 备用线路8电流Ic, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#64=64, 64, 备用线路8电流3Io, TA, 50.000, 2.500, kA, 1.000, A, 1, 0, 
+CHNL_INFO_#65=65, 0, 频率曲线, FQ, 0, 1, Hz, 1, Hz, 1, 0, 
+
+[ZYHD Status_Channels_Parameter]
+CHNL_INFO_#1=1, 1, 500kV南乐Ⅰ线第一套RCS-931A保护A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#2=2, 2, 500kV南乐Ⅰ线第一套RCS-931A保护B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#3=3, 3, 500kV南乐Ⅰ线第一套RCS-931A保护C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#4=4, 4, 500kV南乐Ⅰ线第一套RCS-931A保护远跳动作, Relay_Act, Normal, Relay_#0
+CHNL_INFO_#5=5, 5, 500kV南乐Ⅰ线第二套CSC-103A保护A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#6=6, 6, 500kV南乐Ⅰ线第二套CSC-103A保护B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#7=7, 7, 500kV南乐Ⅰ线第二套CSC-103A保护C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#8=8, 8, 500kV南乐Ⅰ线第二套CSC-103A保护三相跳闸, Relay_Act, Jump_ABC, Relay_#0
+CHNL_INFO_#9=9, 9, 500kV南乐Ⅰ线第二套CSC-103A保护永久跳闸, Relay_Act, Jump_For_Keeps, Relay_#0
+CHNL_INFO_#10=10, 10, 500kV南乐Ⅰ线第二套CSC-103A保护收信跳闸, Relay_Act, Jump_ABC, Relay_#0
+CHNL_INFO_#11=11, 11, 500kV南乐Ⅰ线第二套CSC-103A保护过压跳闸, Relay_Act, Jump_ABC, Relay_#0
+CHNL_INFO_#12=12, 12, 500kV南乐Ⅰ线第二套CSC-103A保护收令动作, Relay_Act, Recv, Relay_#0
+CHNL_INFO_#13=13, 13, 500kV南乐Ⅰ线第二套CSC-103A保护发令动作, Relay_Act, Send, Relay_#0
+CHNL_INFO_#14=14, 14, 500kV南乐Ⅰ线第二套CSC-103A保护通道告警, Device_Alarm, Normal, Relay_#0
+CHNL_INFO_#15=15, 15, 500kV南乐Ⅱ线第一套RCS-931A保护A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#16=16, 16, 500kV南乐Ⅱ线第一套RCS-931A保护B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#17=17, 17, 500kV南乐Ⅱ线第一套RCS-931A保护C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#18=18, 18, 500kV南乐Ⅱ线第一套RCS-931A保护远跳动作, Relay_Act, Normal, Relay_#0
+CHNL_INFO_#19=19, 19, 500kV南乐Ⅱ线第二套CSC-103A保护A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#20=20, 20, 500kV南乐Ⅱ线第二套CSC-103A保护B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#21=21, 21, 500kV南乐Ⅱ线第二套CSC-103A保护C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#22=22, 22, 500kV南乐Ⅱ线第二套CSC-103A保护三相跳闸, Relay_Act, Jump_ABC, Relay_#0
+CHNL_INFO_#23=23, 23, 500kV南乐Ⅱ线第二套CSC-103A保护永久跳闸, Relay_Act, Jump_For_Keeps, Relay_#0
+CHNL_INFO_#24=24, 24, 500kV南乐Ⅱ线通道A告警, Device_Alarm, Normal, Relay_#0
+CHNL_INFO_#25=25, 25, 500kV南乐Ⅱ线通道B告警, Device_Alarm, Normal, Relay_#0
+CHNL_INFO_#26=26, 26, 500kV南乐Ⅱ线第二套CSC-103A保护收信跳闸, Relay_Act, Jump_ABC, Relay_#0
+CHNL_INFO_#27=27, 27, 500kV南乐Ⅱ线第二套CSC-103A保护过压跳闸, Relay_Act, Jump_ABC, Relay_#0
+CHNL_INFO_#28=28, 28, 500kV南乐Ⅰ线第二套CSC-103A保护收信录波, Other, Normal
+CHNL_INFO_#29=29, 29, 500kV南乐Ⅰ线第二套CSC-103A保护发信录波, Other, Normal
+CHNL_INFO_#30=30, 30, 500kV南乐Ⅰ线第二套CSC-103A保护远跳收信录波, Other, Normal
+CHNL_INFO_#31=31, 31, 500kV南乐Ⅰ线第二套CSC-103A保护远跳发信录波, Other, Normal
+CHNL_INFO_#32=32, 32, 备用开关量通道, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#33=33, 33, 500kV 5033边断路器A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#34=34, 34, 500kV 5033边断路器B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#35=35, 35, 500kV 5033边断路器C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#36=36, 36, 500kV 5033边断路器重合闸动作, Relay_Act, Close_Break, Relay_#0
+CHNL_INFO_#37=37, 37, 500kV 5033边断路器失灵保护动作, Relay_Act, Normal, Relay_#0
+CHNL_INFO_#38=38, 38, 500kV 5042中间断路器A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#39=39, 39, 500kV 5042中间断路器B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#40=40, 40, 500kV 5042中间断路器C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#41=41, 41, 500kV 5042中间断路器重合闸动作, Relay_Act, Close_Break, Relay_#0
+CHNL_INFO_#42=42, 42, 500kV 5042中间断路器失灵保护动作, Relay_Act, Normal, Relay_#0
+CHNL_INFO_#43=43, 43, 500kV 5043边断路器A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#44=44, 44, 500kV 5043边断路器B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#45=45, 45, 500kV 5043边断路器C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#46=46, 46, 500kV 5043边断路器重合闸动作, Relay_Act, Close_Break, Relay_#0
+CHNL_INFO_#47=47, 47, 500kV 5043边断路器失灵保护动作, Relay_Act, Normal, Relay_#0
+CHNL_INFO_#48=48, 48, 500kV 5031边断路器A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#49=49, 49, 500kV 5031边断路器B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#50=50, 50, 500kV 5031边断路器C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#51=51, 51, 500kV 5031边断路器重合闸动作, Relay_Act, Close_Break, Relay_#0
+CHNL_INFO_#52=52, 52, 500kV 5031边断路器失灵保护动作, Relay_Act, Normal, Relay_#0
+CHNL_INFO_#53=53, 53, 500kV 5032中间断路器A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#54=54, 54, 500kV 5032中间断路器B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#55=55, 55, 500kV 5032中间断路器C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#56=56, 56, 500kV 5032中间断路器重合闸动作, Relay_Act, Close_Break, Relay_#0
+CHNL_INFO_#57=57, 57, 500kV 5032中间断路器失灵保护动作, Relay_Act, Normal, Relay_#0
+CHNL_INFO_#58=58, 58, 500kV 5041边断路器A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#59=59, 59, 500kV 5041边断路器B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#60=60, 60, 500kV 5041边断路器C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#61=61, 61, 500kV 5041边断路器重合闸动作, Relay_Act, Close_Break, Relay_#0
+CHNL_INFO_#62=62, 62, 500kV 5041边断路器失灵保护动作, Relay_Act, Normal, Relay_#0
+CHNL_INFO_#63=63, 63, 母线2母线侧电压一般开关量, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#64=64, 64, 母线2母线侧电压一般开关量, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#65=65, 65, 500kV乐鹰Ⅱ线第一套RCS-931A保护A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#66=66, 66, 500kV乐鹰Ⅱ线第一套RCS-931A保护B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#67=67, 67, 500kV乐鹰Ⅱ线第一套RCS-931A保护C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#68=68, 68, 500kV乐鹰Ⅱ线第一套RCS-931A保护远跳动作, Relay_Act, Normal, Relay_#0
+CHNL_INFO_#69=69, 69, 500kV乐鹰Ⅱ线第二套保护A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#70=70, 70, 500kV乐鹰Ⅱ线第二套保护B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#71=71, 71, 500kV乐鹰Ⅱ线第二套保护C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#72=72, 72, 500kV乐鹰Ⅱ线第二套保护三相跳闸, Relay_Act, Jump_ABC, Relay_#0
+CHNL_INFO_#73=73, 73, 500kV乐鹰Ⅱ线第二套保护永久跳闸, Relay_Act, Jump_For_Keeps, Relay_#0
+CHNL_INFO_#74=74, 74, 母线3母线侧电压一般开关量, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#75=75, 75, 母线3母线侧电压一般开关量, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#76=76, 76, 500kV乐鹰Ⅱ线第二套保护收信跳闸, Breaker_Pos, Recv, Breaker_#0
+CHNL_INFO_#77=77, 77, 500kV乐鹰Ⅱ线第二套保护过压跳闸, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#78=78, 78, 500kV乐鹰Ⅰ线第一套RCS-931A保护A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#79=79, 79, 500kV乐鹰Ⅰ线第一套RCS-931A保护B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#80=80, 80, 500kV乐鹰Ⅰ线第一套RCS-931A保护C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#81=81, 81, 500kV乐鹰Ⅰ线第一套RCS-931A保护远跳动作, Relay_Act, Normal, Relay_#0
+CHNL_INFO_#82=82, 82, 500kV乐鹰Ⅰ线第二套保护A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#83=83, 83, 500kV乐鹰Ⅰ线第二套保护B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#84=84, 84, 500kV乐鹰Ⅰ线第二套保护C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#85=85, 85, 500kV乐鹰Ⅰ线第二套保护三相跳闸, Relay_Act, Jump_ABC, Relay_#0
+CHNL_INFO_#86=86, 86, 500kV乐鹰Ⅰ线第二套保护永久跳闸, Relay_Act, Jump_For_Keeps, Relay_#0
+CHNL_INFO_#87=87, 87, 母线3母线侧电压一般开关量, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#88=88, 88, 母线3母线侧电压一般开关量, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#89=89, 89, 500kV鹰潭Ⅰ线第二套保护收信跳闸, Breaker_Pos, Recv, Breaker_#0
+CHNL_INFO_#90=90, 90, 500kV鹰潭Ⅰ线第二套保护过压跳闸, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#91=91, 91, 500kV 5033B母断路器A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#92=92, 92, 500kV 5033B母断路器B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#93=93, 93, 500kV 5033B母断路器C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#94=94, 94, 500kV 5042中间断路器操作箱A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#95=95, 95, 500kV 5042中间断路器操作箱B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#96=96, 96, 500kV 5042中间断路器操作箱C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#97=97, 97, 500kV 5043断路器操作箱A相跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#98=98, 98, 500kV 5043断路器操作箱B相跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#99=99, 99, 500kV 5043断路器操作箱C相跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#100=100, 100, 500kV 5031边断路器A相操作箱跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#101=101, 101, 500kV 5031边断路器B相操作箱跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#102=102, 102, 500kV 5031边断路器C相操作箱跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#103=103, 103, 500kV 5032中间断路器保护A相操作箱跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#104=104, 104, 500kV 5032中间断路器保护B相操作箱跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#105=105, 105, 500kV 5032中间断路器保护C相操作箱跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#106=106, 106, 500kV 5041边断路器A相操作箱跳闸, Relay_Act, Jump_A, Relay_#0
+CHNL_INFO_#107=107, 107, 500kV 5041边断路器B相操作箱跳闸, Relay_Act, Jump_B, Relay_#0
+CHNL_INFO_#108=108, 108, 500kV 5041边断路器C相操作箱跳闸, Relay_Act, Jump_C, Relay_#0
+CHNL_INFO_#109=109, 109, 5033断路器合位, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#110=110, 110, 5033断路器分位, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#111=111, 111, 5042断路器合位, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#112=112, 112, 5042断路器分位, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#113=113, 113, 5043断路器合位, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#114=114, 114, 5043断路器分位, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#115=115, 115, 5031断路器合位, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#116=116, 116, 5031断路器分位, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#117=117, 117, 5032断路器合位, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#118=118, 118, 5032断路器分位, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#119=119, 119, 5041断路器合位, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#120=120, 120, 5041断路器分位, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#121=121, 121, 母线4母线侧电压一般开关量, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#122=122, 122, 母线4母线侧电压一般开关量, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#123=123, 123, 母线4母线侧电压一般开关量, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#124=124, 124, 母线4母线侧电压一般开关量, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#125=125, 125, 母线4母线侧电压一般开关量, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#126=126, 126, 母线4母线侧电压一般开关量, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#127=127, 127, 母线4母线侧电压一般开关量, Breaker_Pos, Normal, Breaker_#0
+CHNL_INFO_#128=128, 128, 母线4母线侧电压一般开关量, Breaker_Pos, Normal, Breaker_#0
+
+[ZYHD STATUS_Event_#1]
+CHNL_ID=1, 500kV南乐Ⅰ线第一套RCS-931A保护A相跳闸
+STATUS=ON
+Trip_Point=111
+Trip_Time=15.000ms
+
+[ZYHD STATUS_Event_#2]
+CHNL_ID=13, 500kV南乐Ⅰ线第二套CSC-103A保护发令动作
+STATUS=ON
+Trip_Point=114
+Trip_Time=16.500ms
+
+[ZYHD STATUS_Event_#3]
+CHNL_ID=5, 500kV南乐Ⅰ线第二套CSC-103A保护A相跳闸
+STATUS=ON
+Trip_Point=122
+Trip_Time=20.500ms
+
+[ZYHD STATUS_Event_#4]
+CHNL_ID=29, 500kV南乐Ⅰ线第二套CSC-103A保护发信录波
+STATUS=ON
+Trip_Point=125
+Trip_Time=22.000ms
+
+[ZYHD STATUS_Event_#5]
+CHNL_ID=38, 500kV 5042中间断路器A相跳闸
+STATUS=ON
+Trip_Point=133
+Trip_Time=26.000ms
+
+[ZYHD STATUS_Event_#6]
+CHNL_ID=28, 500kV南乐Ⅰ线第二套CSC-103A保护收信录波
+STATUS=ON
+Trip_Point=134
+Trip_Time=26.500ms
+
+[ZYHD STATUS_Event_#7]
+CHNL_ID=97, 500kV 5043断路器操作箱A相跳闸
+STATUS=ON
+Trip_Point=134
+Trip_Time=26.500ms
+
+[ZYHD STATUS_Event_#8]
+CHNL_ID=43, 500kV 5043边断路器A相跳闸
+STATUS=ON
+Trip_Point=135
+Trip_Time=27.000ms
+
+[ZYHD STATUS_Event_#9]
+CHNL_ID=94, 500kV 5042中间断路器操作箱A相跳闸
+STATUS=ON
+Trip_Point=137
+Trip_Time=28.000ms
+
+[ZYHD STATUS_Event_#10]
+CHNL_ID=113, 5043断路器合位
+STATUS=OFF
+Trip_Point=137
+Trip_Time=28.000ms
+
+[ZYHD STATUS_Event_#11]
+CHNL_ID=12, 500kV南乐Ⅰ线第二套CSC-103A保护收令动作
+STATUS=ON
+Trip_Point=142
+Trip_Time=30.500ms
+
+[ZYHD STATUS_Event_#12]
+CHNL_ID=111, 5042断路器合位
+STATUS=OFF
+Trip_Point=154
+Trip_Time=36.500ms
+
+[ZYHD STATUS_Event_#13]
+CHNL_ID=1, 500kV南乐Ⅰ线第一套RCS-931A保护A相跳闸
+STATUS=OFF
+Trip_Point=197
+Trip_Time=58.000ms
+
+[ZYHD STATUS_Event_#14]
+CHNL_ID=38, 500kV 5042中间断路器A相跳闸
+STATUS=OFF
+Trip_Point=216
+Trip_Time=67.500ms
+
+[ZYHD STATUS_Event_#15]
+CHNL_ID=43, 500kV 5043边断路器A相跳闸
+STATUS=OFF
+Trip_Point=217
+Trip_Time=68.000ms
+
+[ZYHD STATUS_Event_#16]
+CHNL_ID=5, 500kV南乐Ⅰ线第二套CSC-103A保护A相跳闸
+STATUS=OFF
+Trip_Point=225
+Trip_Time=72.000ms
+
+[ZYHD STATUS_Event_#17]
+CHNL_ID=13, 500kV南乐Ⅰ线第二套CSC-103A保护发令动作
+STATUS=OFF
+Trip_Point=485
+Trip_Time=202.000ms
+
+[ZYHD STATUS_Event_#18]
+CHNL_ID=29, 500kV南乐Ⅰ线第二套CSC-103A保护发信录波
+STATUS=OFF
+Trip_Point=497
+Trip_Time=208.000ms
+
+[ZYHD STATUS_Event_#19]
+CHNL_ID=28, 500kV南乐Ⅰ线第二套CSC-103A保护收信录波
+STATUS=OFF
+Trip_Point=553
+Trip_Time=236.000ms
+
+[ZYHD STATUS_Event_#20]
+CHNL_ID=12, 500kV南乐Ⅰ线第二套CSC-103A保护收令动作
+STATUS=OFF
+Trip_Point=558
+Trip_Time=238.500ms
+
+[ZYHD STATUS_Event_#21]
+CHNL_ID=46, 500kV 5043边断路器重合闸动作
+STATUS=ON
+Trip_Point=1633
+Trip_Time=776.000ms
+
+[ZYHD STATUS_Event_#22]
+CHNL_ID=113, 5043断路器合位
+STATUS=ON
+Trip_Point=1776
+Trip_Time=847.500ms
+
+[ZYHD STATUS_Event_#23]
+CHNL_ID=46, 500kV 5043边断路器重合闸动作
+STATUS=OFF
+Trip_Point=1875
+Trip_Time=897.000ms
+
+[ZYHD STATUS_Event_#24]
+CHNL_ID=41, 500kV 5042中间断路器重合闸动作
+STATUS=ON
+Trip_Point=2079
+Trip_Time=1077.000ms
+
+[ZYHD STATUS_Event_#25]
+CHNL_ID=111, 5042断路器合位
+STATUS=ON
+Trip_Point=2145
+Trip_Time=1143.000ms
+
+[ZYHD STATUS_Event_#26]
+CHNL_ID=41, 500kV 5042中间断路器重合闸动作
+STATUS=OFF
+Trip_Point=2199
+Trip_Time=1197.000ms
+
+
+[ZYHD Line_#1]
+DEV_ID=5,备用线路1
+SYS_ID=0
+OBJECT_TYPE=LINE
+LENGTH=100.000(km)
+RX=0.1000000015(Ω/km), 0.4000000060(Ω/km), 0.3000000119(Ω/km), 1.2000000477(Ω/km)
+CG=0.0000000000(μf/km), 0.0000000000(S/km), 0.0000000000(μf/km), 0.0000000000(S/km)
+MRX=0.0000000000(Ω/km), 0.0000000000(Ω/km)
+REACTOR=NO
+TA_CHNS=5, 6, 7, 8
+TV_CHNS=1, 2, 3, 4
+STATUS_CHNS=
+
+[ZYHD Line_#2]
+DEV_ID=6,500kV南乐Ⅰ线
+SYS_ID=0
+OBJECT_TYPE=LINE
+LENGTH=117.080(km)
+RX=0.0197599996(Ω/km), 0.2800999880(Ω/km), 0.1405999959(Ω/km), 0.6470999718(Ω/km)
+CG=0.0000000000(μf/km), 0.0000000000(S/km), 0.0000000000(μf/km), 0.0000000000(S/km)
+MRX=0.0000000000(Ω/km), 0.0000000000(Ω/km)
+REACTOR=NO
+TA_CHNS=9, 10, 11, 12
+TV_CHNS=1, 2, 3, 4
+STATUS_CHNS=
+
+[ZYHD Line_#3]
+DEV_ID=7,备用线路2
+SYS_ID=0
+OBJECT_TYPE=LINE
+LENGTH=100.000(km)
+RX=0.1000000015(Ω/km), 0.4000000060(Ω/km), 0.3000000119(Ω/km), 1.2000000477(Ω/km)
+CG=0.0000000000(μf/km), 0.0000000000(S/km), 0.0000000000(μf/km), 0.0000000000(S/km)
+MRX=0.0000000000(Ω/km), 0.0000000000(Ω/km)
+REACTOR=NO
+TA_CHNS=13, 14, 15, 16
+TV_CHNS=1, 2, 3, 4
+STATUS_CHNS=
+
+[ZYHD Line_#4]
+DEV_ID=8,备用线路3
+SYS_ID=0
+OBJECT_TYPE=LINE
+LENGTH=100.000(km)
+RX=0.1000000015(Ω/km), 0.4000000060(Ω/km), 0.3000000119(Ω/km), 1.2000000477(Ω/km)
+CG=0.0000000000(μf/km), 0.0000000000(S/km), 0.0000000000(μf/km), 0.0000000000(S/km)
+MRX=0.0000000000(Ω/km), 0.0000000000(Ω/km)
+REACTOR=NO
+TA_CHNS=21, 22, 23, 24
+TV_CHNS=17, 18, 19, 20
+STATUS_CHNS=
+
+[ZYHD Line_#5]
+DEV_ID=9,500kV南乐Ⅱ线
+SYS_ID=0
+OBJECT_TYPE=LINE
+LENGTH=118.486(km)
+RX=0.0197599996(Ω/km), 0.2800000012(Ω/km), 0.1405999959(Ω/km), 0.6470999718(Ω/km)
+CG=0.0000000000(μf/km), 0.0000000000(S/km), 0.0000000000(μf/km), 0.0000000000(S/km)
+MRX=0.0000000000(Ω/km), 0.0000000000(Ω/km)
+REACTOR=NO
+TA_CHNS=25, 26, 27, 28
+TV_CHNS=17, 18, 19, 20
+STATUS_CHNS=
+
+[ZYHD Line_#6]
+DEV_ID=10,备用线路4
+SYS_ID=0
+OBJECT_TYPE=LINE
+LENGTH=100.000(km)
+RX=0.1000000015(Ω/km), 0.4000000060(Ω/km), 0.3000000119(Ω/km), 1.2000000477(Ω/km)
+CG=0.0000000000(μf/km), 0.0000000000(S/km), 0.0000000000(μf/km), 0.0000000000(S/km)
+MRX=0.0000000000(Ω/km), 0.0000000000(Ω/km)
+REACTOR=NO
+TA_CHNS=29, 30, 31, 32
+TV_CHNS=17, 18, 19, 20
+STATUS_CHNS=
+
+[ZYHD Line_#7]
+DEV_ID=11,备用线路5
+SYS_ID=0
+OBJECT_TYPE=LINE
+LENGTH=100.000(km)
+RX=0.1000000015(Ω/km), 0.4000000060(Ω/km), 0.3000000119(Ω/km), 1.2000000477(Ω/km)
+CG=0.0000000000(μf/km), 0.0000000000(S/km), 0.0000000000(μf/km), 0.0000000000(S/km)
+MRX=0.0000000000(Ω/km), 0.0000000000(Ω/km)
+REACTOR=NO
+TA_CHNS=37, 38, 39, 40
+TV_CHNS=33, 34, 35, 36
+STATUS_CHNS=
+
+[ZYHD Line_#8]
+DEV_ID=12,500kV乐鹰Ⅰ线
+SYS_ID=0
+OBJECT_TYPE=LINE
+LENGTH=50.010(km)
+RX=0.0281000007(Ω/km), 0.2644999921(Ω/km), 0.1700000018(Ω/km), 0.6999999881(Ω/km)
+CG=0.0000000000(μf/km), 0.0000000000(S/km), 0.0000000000(μf/km), 0.0000000000(S/km)
+MRX=0.0000000000(Ω/km), 0.0000000000(Ω/km)
+REACTOR=NO
+TA_CHNS=41, 42, 43, 44
+TV_CHNS=33, 34, 35, 36
+STATUS_CHNS=
+
+[ZYHD Line_#9]
+DEV_ID=13,备用线路6
+SYS_ID=0
+OBJECT_TYPE=LINE
+LENGTH=100.000(km)
+RX=0.1000000015(Ω/km), 0.4000000060(Ω/km), 0.3000000119(Ω/km), 1.2000000477(Ω/km)
+CG=0.0000000000(μf/km), 0.0000000000(S/km), 0.0000000000(μf/km), 0.0000000000(S/km)
+MRX=0.0000000000(Ω/km), 0.0000000000(Ω/km)
+REACTOR=NO
+TA_CHNS=45, 46, 47, 48
+TV_CHNS=33, 34, 35, 36
+STATUS_CHNS=
+
+[ZYHD Line_#10]
+DEV_ID=14,备用线路7
+SYS_ID=0
+OBJECT_TYPE=LINE
+LENGTH=100.000(km)
+RX=0.1000000015(Ω/km), 0.4000000060(Ω/km), 0.3000000119(Ω/km), 1.2000000477(Ω/km)
+CG=0.0000000000(μf/km), 0.0000000000(S/km), 0.0000000000(μf/km), 0.0000000000(S/km)
+MRX=0.0000000000(Ω/km), 0.0000000000(Ω/km)
+REACTOR=NO
+TA_CHNS=53, 54, 55, 56
+TV_CHNS=49, 50, 51, 52
+STATUS_CHNS=
+
+[ZYHD Line_#11]
+DEV_ID=15,500kV乐鹰Ⅱ线
+SYS_ID=0
+OBJECT_TYPE=LINE
+LENGTH=50.010(km)
+RX=0.0281000007(Ω/km), 0.2644999921(Ω/km), 0.1700000018(Ω/km), 0.6999999881(Ω/km)
+CG=0.0000000000(μf/km), 0.0000000000(S/km), 0.0000000000(μf/km), 0.0000000000(S/km)
+MRX=0.0000000000(Ω/km), 0.0000000000(Ω/km)
+REACTOR=NO
+TA_CHNS=57, 58, 59, 60
+TV_CHNS=49, 50, 51, 52
+STATUS_CHNS=
+
+[ZYHD Line_#12]
+DEV_ID=16,备用线路8
+SYS_ID=0
+OBJECT_TYPE=LINE
+LENGTH=100.000(km)
+RX=0.1000000015(Ω/km), 0.4000000060(Ω/km), 0.3000000119(Ω/km), 1.2000000477(Ω/km)
+CG=0.0000000000(μf/km), 0.0000000000(S/km), 0.0000000000(μf/km), 0.0000000000(S/km)
+MRX=0.0000000000(Ω/km), 0.0000000000(Ω/km)
+REACTOR=NO
+TA_CHNS=61, 62, 63, 64
+TV_CHNS=49, 50, 51, 52
+STATUS_CHNS=
+
+[ZYHD sti]
+sti1=---------------------- 故障信息 ----------------------
+sti2=启动时刻：2009-01-25 01:38:41.0008
+sti3=类型：AN
+sti4=跳闸：未知
+sti5=单元：500kV南乐Ⅰ线电流
+sti6=距离：37.31 km
+sti7=大小：1136406
+sti8=---------------------- 启动信息 ----------------------
+sti9====> 1#DSP启动码 = 0xAA2B
+sti10=启动类型：通道有效值高越限启动
+sti11=启动单元：500kV南乐Ⅰ线电流3Io
+sti12====> 2#DSP启动码 = 0xAA10
+sti13=启动类型：通道突变量启动
+sti14=启动单元：500kV南乐Ⅱ线电压Ua
+sti15====> 3#DSP启动码 = 0xAA18
+sti16=启动类型：通道突变量启动
+sti17=启动单元：500kV乐鹰Ⅰ线电流Ia
+sti18====> 4#DSP启动码 = 0xAA18
+sti19=启动类型：通道突变量启动
+sti20=启动单元：500kV乐鹰Ⅱ线电流Ia
+
