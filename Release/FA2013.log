@@ -1,0 +1,10 @@
+﻿生成启动时间为 2013/6/9 9:34:39。
+     1>项目“C:\Users\炎侃\Desktop\fa20130522 - 副本\FA2013\FA2013.vcxproj”在节点 2 上(clean 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\FA2013.lastbuildstate”。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : 对路径“C:\USERS\炎侃\DESKTOP\FA20130522 - 副本\RELEASE\FA2013.EXE”的访问被拒绝。
+     1>已完成生成项目“C:\Users\炎侃\Desktop\fa20130522 - 副本\FA2013\FA2013.vcxproj”(clean 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.74

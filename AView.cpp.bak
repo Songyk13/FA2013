@@ -1,0 +1,474 @@
+
+// AView.cpp : CAView 类的实现
+//
+
+#include "stdafx.h"
+// SHARED_HANDLERS 可以在实现预览、缩略图和搜索筛选器句柄的
+// ATL 项目中进行定义，并允许与该项目共享文档代码。
+#ifndef SHARED_HANDLERS
+#include "FA2013.h"
+#endif
+
+#include "FA2013Doc.h"
+#include "AView.h"
+#include "DView.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#endif
+
+
+// CAView
+
+IMPLEMENT_DYNCREATE(CAView, CScrollView)
+
+BEGIN_MESSAGE_MAP(CAView, CScrollView)
+	// 标准打印命令
+//	ON_COMMAND(ID_FILE_PRINT, &CScrollView::OnFilePrint)
+//	ON_COMMAND(ID_FILE_PRINT_DIRECT, &CScrollView::OnFilePrint)
+//	ON_COMMAND(ID_FILE_PRINT_PREVIEW, &CAView::OnFilePrintPreview)
+//	ON_WM_CONTEXTMENU()
+//	ON_WM_RBUTTONUP()
+	ON_WM_ERASEBKGND()
+	ON_WM_LBUTTONDOWN()
+	ON_WM_RBUTTONDOWN()
+	ON_WM_LBUTTONUP()
+	ON_WM_LBUTTONDBLCLK()
+	ON_WM_RBUTTONDBLCLK()
+//	ON_WM_SETCURSOR()
+END_MESSAGE_MAP()
+
+// CAView 构造/析构
+
+CAView::CAView()
+{
+	// TODO: 在此处添加构造代码
+
+}
+
+CAView::~CAView()
+{
+}
+
+BOOL CAView::PreCreateWindow(CREATESTRUCT& cs)
+{
+	// TODO: 在此处通过修改
+	//  CREATESTRUCT cs 来修改窗口类或样式
+
+	return CScrollView::PreCreateWindow(cs);
+}
+
+// CAView 绘制
+
+void CAView::OnDraw(CDC* /*pDC*/)
+{
+	CFA2013Doc* pDoc = GetDocument();
+	ASSERT_VALID(pDoc);
+	if (!pDoc)
+		return;
+	if (pDoc->pFile!=NULL)
+	{
+		InitialDBB();
+		this->drawCom();
+	}
+	// TODO: 在此处为本机数据添加绘制代码
+}
+
+void CAView::OnInitialUpdate()
+{
+	CScrollView::OnInitialUpdate();
+
+	CSize sizeTotal;
+	// TODO: 计算此视图的合计大小
+	sizeTotal.cx = 1000;
+	sizeTotal.cy = 1000;
+	SetScrollSizes(MM_TEXT, sizeTotal,CSize(100,100),CSize(100,100));
+
+}
+
+
+// CAView 打印
+
+
+//void CAView::OnFilePrintPreview()
+//{
+//#ifndef SHARED_HANDLERS
+//	AFXPrintPreview(this);
+//#endif
+//}
+
+BOOL CAView::OnPreparePrinting(CPrintInfo* pInfo)
+{
+	// 默认准备
+	return DoPreparePrinting(pInfo);
+}
+
+void CAView::OnBeginPrinting(CDC* /*pDC*/, CPrintInfo* /*pInfo*/)
+{
+	// TODO: 添加额外的打印前进行的初始化过程
+}
+
+void CAView::OnEndPrinting(CDC* /*pDC*/, CPrintInfo* /*pInfo*/)
+{
+	// TODO: 添加打印后进行的清理过程
+}
+
+//void CAView::OnRButtonUp(UINT /* nFlags */, CPoint point)
+//{
+//	ClientToScreen(&point);
+//	OnContextMenu(this, point);
+//}
+
+//void CAView::OnContextMenu(CWnd* /* pWnd */, CPoint point)
+//{
+//#ifndef SHARED_HANDLERS
+//	theApp.GetContextMenuManager()->ShowPopupMenu(IDR_POPUP_EDIT, point.x, point.y, this, TRUE);
+//#endif
+//}
+
+
+// CAView 诊断
+
+#ifdef _DEBUG
+void CAView::AssertValid() const
+{
+	CScrollView::AssertValid();
+}
+
+void CAView::Dump(CDumpContext& dc) const
+{
+	CScrollView::Dump(dc);
+}
+
+CFA2013Doc* CAView::GetDocument() const // 非调试版本是内联的
+{
+	ASSERT(m_pDocument->IsKindOf(RUNTIME_CLASS(CFA2013Doc)));
+	return (CFA2013Doc*)m_pDocument;
+}
+#endif //_DEBUG
+
+
+// CAView 消息处理程序
+
+int CAView::drawCom(void)
+{
+	//SetClassLong(this->GetSafeHwnd(),GCL_HCURSOR,(LONG)LoadCursorW(NULL,IDC_CROSS));
+	HCURSOR cur = AfxGetApp()->LoadCursorW(IDC_POINTER);
+	
+	::SetCursor(cur);
+	
+	int mapMode;
+	CSize totalSize;
+	CSize size1, size2;
+	CSize visibleSize;
+	CPoint pPoint;
+	CPoint startPoint;
+	int i,j;
+	int sumHeight = 0;
+	int currentHeight;
+	int visibleA1, visibleA2;
+	int visibleP;
+	int startSample, endSample;
+
+	CPen* pOld;
+	extern CFA2013App theApp;
+
+	CDC* pDC= this->GetDC();
+	
+//	this->GetDeviceScrollSizes(mapMode,totalSize,size1,size2);
+
+	pPoint = this->GetScrollPosition();
+	CRect bkgRect;
+	this->GetClientRect(&bkgRect);
+
+                                                           //双缓冲
+	//pDC->DPtoLP(&bkgRect);
+	//pDC->FillSolidRect(bkgRect,RGB(255,255,255));
+
+	//m_DC.DPtoLP(&bkgRect);
+	m_DC.SetBkColor(RGB(0,0,0));
+	//m_DC.FillSolidRect(bkgRect,RGB(0,0,0));
+	
+
+
+	CFA2013Doc* ComFile = (CFA2013Doc*)GetDocument();
+	totalSize.cx = (LONG)((ComFile->pFile->m_TotalSampleNum)*
+		(ComFile->pFile->m_drawParam.SPScale))+ComFile->pFile->m_drawParam.leftSpace+1;
+	//totalSize.cy = (ComFile->pFile->m_ANumber+1)*(ComFile->pFile->m_drawParam.defaultVSpace+2*(ComFile->pFile->m_drawParam.VGap));
+	totalSize.cy = ComFile->pFile->getTotalAVSpace();
+	SetScrollSizes(MM_TEXT,totalSize);
+	ComFile->viewSize=totalSize;
+//	ComFile->pDView->SetScrollSizes(MM_TEXT,totalSize);
+
+	int visibleHeight = pPoint.y/*+ComFile->pFile->m_drawParam.topSpace*/;
+	for(i = 0;sumHeight<=visibleHeight;++i)
+	{
+		sumHeight += ComFile->pFile->AVector[i]->m_drawPara.VSpace+2*(ComFile->pFile->m_drawParam.VGap);
+	}
+
+	visibleHeight += bkgRect.Height()-ComFile->pFile->m_drawParam.topSpace;
+	currentHeight = sumHeight-(ComFile->pFile->AVector[i]->m_drawPara.VSpace/2+(ComFile->pFile->m_drawParam.VGap));
+	sumHeight -= ComFile->pFile->AVector[i]->m_drawPara.VSpace+2*(ComFile->pFile->m_drawParam.VGap);
+	startPoint.x=ComFile->pFile->m_drawParam.leftSpace;
+	startPoint.y=currentHeight-pPoint.y+ComFile->pFile->m_drawParam.topSpace;
+
+
+	for(j = i+1;sumHeight<visibleHeight&&j<ComFile->pFile->m_ANumber;++j)
+	{
+		sumHeight += ComFile->pFile->AVector[j]->m_drawPara.VSpace+2*(ComFile->pFile->m_drawParam.VGap);
+	}
+	visibleA1 = i;
+	visibleA2 = j;
+	visibleP = bkgRect.Width()-ComFile->pFile->m_drawParam.rightSpace-ComFile->pFile->m_drawParam.leftSpace+1;
+	startSample=pPoint.x/(ComFile->pFile->m_drawParam.SPScale);
+	endSample=(visibleP+pPoint.x)/(ComFile->pFile->m_drawParam.SPScale);
+	for(int ii = i;ii<=j&&ii<=ComFile->pFile->m_ANumber;++ii)
+	{
+		ComFile->pFile->AVector[ii-1]->drawChannel(&m_DC,startPoint,startSample,endSample,ComFile->pFile->m_drawParam);
+		if(ii<ComFile->pFile->m_ANumber)
+		{
+			startPoint.y += (ComFile->pFile->AVector[ii-1]->m_drawPara.VSpace)/2+(ComFile->pFile->m_drawParam.VGap)*2
+				+(ComFile->pFile->AVector[ii]->m_drawPara.VSpace)/2;
+		}
+	}
+	//pDC->FillSolidRect(0,0,bkgRect.Width(),100,RGB(150,150,150));
+	
+	m_DC.FillSolidRect(0,0,bkgRect.Width(),ComFile->pFile->m_drawParam.topSpace,RGB(150,150,150));
+	m_DC.FillSolidRect((bkgRect.Width()-ComFile->pFile->m_drawParam.rightSpace),0,bkgRect.Width(),bkgRect.Height(),RGB(150,150,150));
+	m_DC.FillSolidRect(0,0,ComFile->pFile->m_drawParam.leftSpace,bkgRect.Height(),RGB(150,150,150));
+
+	if (ComFile->pCursor1.x!=0)
+	{
+
+		pOld = m_DC.SelectObject(&theApp.PenAxis1);
+		m_DC.MoveTo(ComFile->pCursor1.x,ComFile->pFile->m_drawParam.topSpace);
+		m_DC.LineTo(ComFile->pCursor1.x,bkgRect.Height());
+		m_DC.SelectObject(pOld);
+		ComFile->CursorNum1= (int)((pPoint.x + ComFile->pCursor1.x - ComFile->pFile->m_drawParam.leftSpace )/(ComFile->pFile->m_drawParam.SPScale));
+		m_DC.SetTextColor(RGB(255,255,255));
+		m_DC.SetBkMode(TRANSPARENT);
+		CString a,b,at;
+		CComTime aT;
+		aT = ComFile->pFile->m_StartTime + ComFile->pFile->Time[ComFile->CursorNum1-1];
+		a.Format(_T("%d"),ComFile->CursorNum1);
+		b.Format(_T("%d"),ComFile->pCursor1.x);
+		at = aT.PrintTimeWithDate();
+		m_DC.TextOutW(0,0,a);
+		m_DC.TextOutW(0,20,b);
+		m_DC.TextOutW(0,40,at);
+	}
+	if (ComFile->pCursor2.x!=0)
+	{
+
+		pOld = m_DC.SelectObject(&theApp.PenAxis2);
+		m_DC.MoveTo(ComFile->pCursor2.x,ComFile->pFile->m_drawParam.topSpace);
+		m_DC.LineTo(ComFile->pCursor2.x,bkgRect.Height());
+		m_DC.SelectObject(pOld);
+		ComFile->CursorNum2= (int)((pPoint.x + ComFile->pCursor2.x - ComFile->pFile->m_drawParam.leftSpace )/(ComFile->pFile->m_drawParam.SPScale));
+
+		m_DC.SetTextColor(RGB(255,255,255));
+		m_DC.SetBkMode(TRANSPARENT);
+		CString a,b,at;
+		CComTime aT;
+		aT = ComFile->pFile->m_StartTime + ComFile->pFile->Time[ComFile->CursorNum2-1];
+		a.Format(_T("%d"),ComFile->CursorNum2);
+		b.Format(_T("%d"),ComFile->pCursor2.x);
+		at = aT.PrintTimeWithDate();
+		m_DC.TextOutW(400,0,a);
+		m_DC.TextOutW(400,20,b);
+		m_DC.TextOutW(400,40,at);
+	}
+
+	pDC->BitBlt(0, 0, bkgRect.Width(), bkgRect.Height(), &m_DC, 0, 0, SRCCOPY);
+
+
+	//Invalidate();
+	ComFile->chanPos=GetScrollPosition();
+	ComFile->UpdateAllViews(this);
+	Invalidate();
+	m_DC.DeleteDC();
+	m_Bmp.DeleteObject();
+
+
+	return 0;
+}
+
+void CAView::InitialDBB()
+{
+	CRect rt;
+	this->GetClientRect(&rt);
+
+	// 为屏幕DC创建兼容的内存DC
+	if(!m_DC.CreateCompatibleDC(NULL))				
+	{														
+		::PostQuitMessage(0);
+	}	
+
+	// 创建位图
+	CDC* pDC= this->GetDC();
+	m_Bmp.CreateCompatibleBitmap(pDC, rt.Width(), rt.Height());
+
+	// 相当于选择画布
+	::SelectObject(m_DC.GetSafeHdc(), m_Bmp);			
+	
+}
+
+
+BOOL CAView::OnEraseBkgnd(CDC* pDC)
+{
+	// TODO: 在此添加消息处理程序代码和/或调用默认值
+	CFA2013Doc* pDoc =(CFA2013Doc*)GetDocument();
+	ASSERT_VALID(pDoc);
+	if (pDoc->pFile!=NULL)
+		return TRUE;
+	else
+		return CScrollView::OnEraseBkgnd(pDC);
+	//return CScrollView::OnEraseBkgnd(pDC);
+}
+
+
+void CAView::OnLButtonDown(UINT nFlags, CPoint point)
+{
+	CFA2013Doc* pDoc =(CFA2013Doc*)GetDocument();
+	ASSERT_VALID(pDoc);
+	if (pDoc->pFile==NULL)
+		return;
+
+	CDC* pDC=GetDC();
+	CPoint pPoint = this->GetScrollPosition();
+	CRect bkgRect;
+	this->GetClientRect(&bkgRect);
+
+	if (pDoc->m_Cursor==CURSOR)
+	{
+		int x=point.x;
+		if ((x>pDoc->pFile->m_drawParam.leftSpace)&&(x<bkgRect.Width()-pDoc->pFile->m_drawParam.rightSpace))
+		{
+			pDoc->CursorNum1= (int)((pPoint.x + point.x - pDoc->pFile->m_drawParam.leftSpace )/(pDoc->pFile->m_drawParam.SPScale));
+			pDoc->pCursor1.x = pDoc->CursorNum1 * pDoc->pFile->m_drawParam.SPScale + pDoc->pFile->m_drawParam.leftSpace - pPoint.x;
+		}
+	}
+	else if(pDoc->m_Cursor==VZOOM)
+	{
+		if (point.x<pDoc->pFile->m_drawParam.leftSpace||point.x>bkgRect.Width()-pDoc->pFile->m_drawParam.rightSpace||point.y<pDoc->pFile->m_drawParam.topSpace)
+			return;
+		int i = pDoc->pFile->getPointChan(GetScrollPosition().y,point.y);
+		pDoc->pFile->AVector[i]->m_drawPara.VSpace += 10;
+		pDoc->pFile->AVector[i]->m_drawPara.UPScale = pDoc->pFile->AVector[i]->m_drawPara.UPScale*
+			(pDoc->pFile->AVector[i]->m_drawPara.VSpace-10)/pDoc->pFile->AVector[i]->m_drawPara.VSpace;
+	}
+	else if(pDoc->m_Cursor==HZOOM)
+	{
+		if (point.x<pDoc->pFile->m_drawParam.leftSpace||point.x>bkgRect.Width()-pDoc->pFile->m_drawParam.rightSpace||point.y<pDoc->pFile->m_drawParam.topSpace)
+			return;
+		//pDoc->pFile->m_drawParam.SPScale += pDoc->pFile->m_drawParam.defaultSPScale*0.1;
+		pDoc->pFile->m_drawParam.SPScale *= 1.1;
+	}
+	Invalidate();
+	UpdateWindow();
+	CScrollView::OnLButtonDown(nFlags, point);
+}
+
+
+void CAView::OnRButtonDown(UINT nFlags, CPoint point)
+{
+	CFA2013Doc* pDoc =(CFA2013Doc*)GetDocument();
+	ASSERT_VALID(pDoc);
+	if (pDoc->pFile==NULL)
+		return;
+
+	CDC* pDC=GetDC();
+	CPoint pPoint = this->GetScrollPosition();
+	CRect bkgRect;
+	this->GetClientRect(&bkgRect);
+
+	if(pDoc->m_Cursor==CURSOR)
+	{
+		int x=point.x;
+		if ((x>pDoc->pFile->m_drawParam.leftSpace)&&(x<bkgRect.Width()-pDoc->pFile->m_drawParam.rightSpace))
+		{
+			pDoc->CursorNum2= (int)((pPoint.x + point.x - pDoc->pFile->m_drawParam.leftSpace )/(pDoc->pFile->m_drawParam.SPScale));
+			pDoc->pCursor2.x = pDoc->CursorNum2 * pDoc->pFile->m_drawParam.SPScale + pDoc->pFile->m_drawParam.leftSpace - pPoint.x;
+		}
+	}
+	else if(pDoc->m_Cursor==VZOOM)
+	{
+		if (point.x<pDoc->pFile->m_drawParam.leftSpace||point.x>bkgRect.Width()-pDoc->pFile->m_drawParam.rightSpace||point.y<pDoc->pFile->m_drawParam.topSpace)
+			return;
+		int i = pDoc->pFile->getPointChan(GetScrollPosition().y,point.y);
+		if (pDoc->pFile->AVector[i]->m_drawPara.VSpace==pDoc->pFile->AVector[i]->m_drawPara.defultVSpace)
+			return;
+		pDoc->pFile->AVector[i]->m_drawPara.VSpace -= 10;
+		pDoc->pFile->AVector[i]->m_drawPara.UPScale = pDoc->pFile->AVector[i]->m_drawPara.UPScale*
+			(pDoc->pFile->AVector[i]->m_drawPara.VSpace+10)/pDoc->pFile->AVector[i]->m_drawPara.VSpace;
+	}
+	else if(pDoc->m_Cursor==HZOOM)
+	{
+		if (point.x<pDoc->pFile->m_drawParam.leftSpace||point.x>bkgRect.Width()-pDoc->pFile->m_drawParam.rightSpace||point.y<pDoc->pFile->m_drawParam.topSpace)
+			return;
+		if (pDoc->pFile->m_drawParam.SPScale * 0.9 <=  pDoc->pFile->m_drawParam.defaultSPScale*0.1)
+			 pDoc->pFile->m_drawParam.SPScale = pDoc->pFile->m_drawParam.defaultSPScale*0.1;
+		else
+			pDoc->pFile->m_drawParam.SPScale *= 0.9;
+	}
+	Invalidate();
+	UpdateWindow();
+	CScrollView::OnRButtonDown(nFlags, point);
+}
+
+
+void CAView::OnLButtonUp(UINT nFlags, CPoint point)
+{
+	CScrollView::OnLButtonUp(nFlags, point);
+}
+
+
+void CAView::OnLButtonDblClk(UINT nFlags, CPoint point)
+{
+	CFA2013Doc* pDoc =(CFA2013Doc*)GetDocument();
+	ASSERT_VALID(pDoc);
+	CRect bkgRect;
+		this->GetClientRect(&bkgRect);
+	if (pDoc->pFile==NULL||point.x<pDoc->pFile->m_drawParam.leftSpace||
+		point.x>bkgRect.Width()-pDoc->pFile->m_drawParam.rightSpace||point.y<pDoc->pFile->m_drawParam.topSpace)
+		return;
+	if(pDoc->m_Cursor==VZOOM)
+	{
+		int i = pDoc->pFile->getPointChan(GetScrollPosition().y,point.y);
+		pDoc->pFile->AVector[i]->m_drawPara.VSpace -= 10;
+		pDoc->pFile->AVector[i]->m_drawPara.UPScale = 2*pDoc->pFile->AVector[i]->maxAData/pDoc->pFile->AVector[i]->m_drawPara.VSpace;
+	}
+	Invalidate();
+	UpdateWindow();
+	CScrollView::OnLButtonDblClk(nFlags, point);
+}
+
+
+void CAView::OnRButtonDblClk(UINT nFlags, CPoint point)
+{
+	CFA2013Doc* pDoc =(CFA2013Doc*)GetDocument();
+	ASSERT_VALID(pDoc);
+	CRect bkgRect;
+		this->GetClientRect(&bkgRect);
+	if (pDoc->pFile==NULL||point.x<pDoc->pFile->m_drawParam.leftSpace||
+		point.x>bkgRect.Width()-pDoc->pFile->m_drawParam.rightSpace||point.y<pDoc->pFile->m_drawParam.topSpace)
+		return;
+	if(pDoc->m_Cursor==VZOOM)
+	{
+		int i = pDoc->pFile->getPointChan(GetScrollPosition().y,point.y);
+		pDoc->pFile->AVector[i]->m_drawPara.VSpace = pDoc->pFile->AVector[i]->m_drawPara.defultVSpace;
+		pDoc->pFile->AVector[i]->m_drawPara.UPScale = pDoc->pFile->AVector[i]->m_drawPara.defaultUPScale;
+	}
+	Invalidate();
+	UpdateWindow();
+	CScrollView::OnRButtonDblClk(nFlags, point);
+}
+
+
+//BOOL CAView::OnSetCursor(CWnd* pWnd, UINT nHitTest, UINT message)
+//{
+//	// TODO: 在此添加消息处理程序代码和/或调用默认值
+//	HCURSOR hCur  =  LoadCursor( NULL  , MAKEINTRESOURCE(105)) ;
+//                     ::SetCursor(hCur);
+//	return CScrollView::OnSetCursor(pWnd, nHitTest, message);
+//}
